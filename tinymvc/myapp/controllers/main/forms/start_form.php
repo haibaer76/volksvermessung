@@ -11,6 +11,7 @@ class StartForm extends MyQuickForm {
 		$this->addElement('text', 'bogen_id', '', array('class' => 'cls-input-bogen-id'));
 		$this->registerRule('cbBogenIdMustBeValid', 'callback', 'cbBogenIdMustBeValid', $this);
 		$this->addRule('bogen_id', 'Ung&uuml;tige Bogen-ID!', 'cbBogenIdMustBeValid');
+		$this->addRule('bogen_id', 'Bitte gib eine Bogen-ID ein!', 'required');
 	}
 
 	function cbBogenIdMustBeValid($passId) {
