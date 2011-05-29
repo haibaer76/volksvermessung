@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<questions>
+	<page>
+		<heading>Allgemeine Fragen</heading>
+		<question property="sex" type="select_single">
+			<label>Geschlecht:</label>
+			<value>männlich</value>
+			<value>weiblich</value>
+			<altlabel>Sonstiges</altlabel>
+		</question>
+		<question property="age" type="int" min="0" max="199">
+			<label>Alter:</label>
+		</question>
+		<question property="size" type="int" min="40" max="250">
+			<label>Körpergröße in cm:</label>
+		</question>
+	</page>
+	<page>
+		<heading>Essen und Trinken</heading>
+		<question property="drink" type="select_single">
+			<label>Was trinks Du am liebsten?</label>
+			<value>Bier</value>
+			<value>Schnaps</value>
+			<value>Wein</value>
+			<altlabel>Anderes</altlabel>
+		</question>
+		<question property="food" type="select_multi">
+			<label>Was isst Du alles?</label>
+			<value>Steak</value>
+			<value>Brot</value>
+			<value>Salat</value>
+			<value>Wurst</value>
+			<altlabel>Anderes</altlabel>
+		</question>
+	</page>
+</questions>

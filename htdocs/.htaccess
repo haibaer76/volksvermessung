@@ -1,0 +1,12 @@
+
+SetOutputFilter DEFLATE
+# RewriteRule ^(image|js|selenium)/ %{REQUEST_FILENAME} [NC,L]
+# RewriteRule auto_server.php ../tinymvc/myapp/controllers/main/auto_server.php  [L]
+# RewriteRule location_server.php ../tinymvc/myapp/controllers/main/location_server.php  [L]
+# RewriteRule livesearch.class.php ../tinymvc/myapp/controllers/main/livesearch.class.php  [L]
+
+RewriteEngine On
+RewriteRule ^sitemap\.xml$ /sitemapxml
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]

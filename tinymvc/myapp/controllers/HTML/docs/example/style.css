@@ -1,0 +1,73 @@
+BODY, TABLE {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	color: #54616E;
+	font-size: 11px;
+}
+
+A {
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+TABLE, TD, TH, P, DIV, LI, INPUT, TEXTAREA {
+	font-size: 11px;
+}
+
+A:link		{color:#54616E; text-decoration: none;}
+A:visited	{color:#54616E; text-decoration: none;}
+A:active 	{color:#54616E; text-decoration: none;}
+A:hover		{color:#000000; text-decoration: underline;}
+
+.inputs {
+	width: 90mm;
+}
+
+TABLE.amenu TD A {
+	font-size: 12px;
+}
+
+TABLE.amenu TD.selected {
+	border: 0px;
+	font-weight: bold;
+}
+
+TH {
+  text-align: right;
+  padding-right: 8px;
+}
+
+.frozen {
+  color: red;
+}
+
+INPUT.error, SELECT.error, TEXTAREA.error {
+	background-color: #FFF0F0;
+}
+
+.TITLE {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+P {
+	font-size: 11px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+P.box, P.box * {
+	font-size: 11px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+.inputs {
+	background-color: #E0EEC1;
+}
+
+#LSHighlight {
+     color: #564b47;
+     background-color: #ccc;
+}
