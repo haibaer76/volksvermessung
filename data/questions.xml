@@ -11,26 +11,54 @@
 		<question property="age" type="int" min="0" max="199">
 			<label>Alter:</label>
 		</question>
+	</page>
+	<page>
+		<heading>Vermessungsfragen</heading>
 		<question property="size" type="int" min="40" max="250">
 			<label>Körpergröße in cm:</label>
 		</question>
+		<question property="nof_teeth" type="int" min="0" max="40">
+			<label>Anzahl der Zähne:</label>
+		</question>
+		<question property="longer_finger" type="select_single">
+			<label>Welcher Deiner Finger ist länger?</label>
+			<value>Zeigefinger</value>
+			<value>Ringfinger</value>
+			<value>Weiß nicht</value>
+		</question>
+		<question property="nof_clothes" type="int" min="0">
+			<label>Wieviele Kleidungsstücke hast Du momentan an?</label>
+		</question>
 	</page>
 	<page>
-		<heading>Essen und Trinken</heading>
-		<question property="drink" type="select_single">
-			<label>Was trinks Du am liebsten?</label>
-			<value>Bier</value>
-			<value>Schnaps</value>
-			<value>Wein</value>
-			<altlabel>Anderes</altlabel>
+		<heading>Fragen zum Alltag</heading>
+		<question property="vehicle" type="select_single">
+			<label>Was ist Dein meistgenutztes Fortbewegungsmittel innerhalb Dresdens?</label>
+			<value>Fahrrad</value>
+			<value>Motorrad/Moped</value>
+			<value>Auto</value>
+			<value>Dresdner Verkehrsbetriebe</value>
+			<value>Taxi</value>
+			<altlabel>Anderes:</altlabel>
 		</question>
-		<question property="food" type="select_multi">
-			<label>Was isst Du alles?</label>
-			<value>Steak</value>
-			<value>Brot</value>
-			<value>Salat</value>
-			<value>Wurst</value>
-			<altlabel>Anderes</altlabel>
+		<question property="wakeup_time" type="select_single">
+			<label>Wann stehst Du (unter der Woche) auf?</label>
+			<value>Vor 6 Uhr</value>
+			<value>Zwischen 6 und 7 Uhr</value>
+			<value>Zwischen 7 und 8 Uhr</value>
+			<value>Zwischen 8 und 9 Uhr</value>
+			<value>Zwischen 9 und 10 Uhr</value>
+			<value>Zwischen 10 und 11 Uhr</value>
+			<value>Nach 11 Uhr</value>
+			<value>Wenn ich Lust habe</value>
+		</question>
+		<question property="einkauf_lidl" type="select_single">
+			<label>Gehst Du am Sonntag im LIDL (Bhf. Neustadt) einkaufen?</label>
+			<value>Ja</value>
+			<value>Nein</value>
+		</question>
+		<question property="school_distance" type="int" min="0">
+			<label>Wie lang ist Dein Schulweg bzw. der Deines Kindes/Deiner Kinder (in Metern)?</label>
 		</question>
 	</page>
 </questions>
