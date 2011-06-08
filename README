@@ -1,0 +1,8 @@
+HOW TO INSTALL
+
+1. Go to folder setup and copy the file db_config.sample to db_config
+
+2. Adapt the file db_config to your requirements
+
+3. Run install_db.sh
+
