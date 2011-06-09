@@ -1,5 +1,5 @@
 <?
-//a:9:{s:4:"lang";s:2:"en";s:9:"auth_pass";s:32:"7815696ecbf1c96e6894b779456d330e";s:8:"quota_mb";i:0;s:17:"upload_ext_filter";a:0:{}s:19:"download_ext_filter";a:0:{}s:15:"error_reporting";s:0:"";s:7:"fm_root";s:37:"/home/feson/projects/volksvermessung/";s:17:"cookie_cache_time";i:1096733048;s:7:"version";s:5:"0.9.3";}
+//a:9:{s:4:"lang";s:2:"en";s:9:"auth_pass";s:32:"4bf33a5b7a57b9f89d6e3522c650d43d";s:8:"quota_mb";i:0;s:17:"upload_ext_filter";a:0:{}s:19:"download_ext_filter";a:0:{}s:15:"error_reporting";s:0:"";s:7:"fm_root";s:37:"/home/feson/projects/volksvermessung/";s:17:"cookie_cache_time";i:1096733048;s:7:"version";s:5:"0.9.3";}
 /*--------------------------------------------------
  | PHP FILE MANAGER
  +--------------------------------------------------
