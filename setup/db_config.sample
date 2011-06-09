@@ -1,0 +1,18 @@
+# configuration for the whole app
+# configure the database host and name
+# caution when changing! DO NOT put a space before or after the equals sign!
+mysql_cmd='mysql --default-character-set=utf8'
+db_host=localhost
+db_name=volksvermessung
+# the settings for the root user
+db_root_user=root
+db_root_password=mysql
+
+app_path=/home/feson/projects/volksvermessung/
+tinymvc_path=/home/feson/projects/volksvermessung/tinymvc/
+smarty_path=/home/feson/projects/volksvermessung/htdocs/smarty/
+relative_uri=/
+htdocs_path=/home/feson/projects/volksvermessung/htdocs/
+app_host=volksvermessung.local
+question_file=$app_path/data/questions.xml
+
