@@ -1,5 +1,5 @@
 <?
-//a:9:{s:4:"lang";s:2:"en";s:9:"auth_pass";s:32:"4bf33a5b7a57b9f89d6e3522c650d43d";s:8:"quota_mb";i:0;s:17:"upload_ext_filter";a:0:{}s:19:"download_ext_filter";a:0:{}s:15:"error_reporting";s:0:"";s:7:"fm_root";s:37:"/home/feson/projects/volksvermessung/";s:17:"cookie_cache_time";i:1096733048;s:7:"version";s:5:"0.9.3";}
+//a:9:{s:4:"lang";s:2:"en";s:9:"auth_pass";s:32:"4bf33a5b7a57b9f89d6e3522c650d43d";s:8:"quota_mb";i:0;s:17:"upload_ext_filter";a:0:{}s:19:"download_ext_filter";a:0:{}s:15:"error_reporting";s:0:"";s:7:"fm_root";s:45:"/var/www/rshc.de/users/hyper/volksvermessung/";s:17:"cookie_cache_time";i:1096733048;s:7:"version";s:5:"0.9.3";}
 /*--------------------------------------------------
  | PHP FILE MANAGER
  +--------------------------------------------------
@@ -122,10 +122,10 @@ if ($loggedon==$auth_pass){
                 case 3: download(); break;
                 case 4: view(); break;
                 case 5: server_info(); break;
-                case 6: execute(); break;
+//                case 6: execute(); break;
                 case 7: edit_file_form(); break;
                 case 8: chmod_form(); break;
-                case 9: shell_form(); break;
+//                case 9: shell_form(); break;
                 case 10: upload_form(); break;
                 default: frameset();
             }

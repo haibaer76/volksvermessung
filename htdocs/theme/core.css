@@ -1,0 +1,58 @@
+/* --------------- */
+/* MAIN FORMATTING */
+/* --------------- */
+body {
+	font-family: "Verdana", "Arial","Trebuchet MS";text-decoration: none; word-spacing: normal; letter-spacing: 0;
+	font-size:100.01%;
+	margin: 12px 12px 0;
+    text-align: center;
+	}
+
+.wrapper {
+	color:#221e1f;
+	font-size:0.625em;
+	width:700px;
+	text-align: left;
+	margin: 0 auto;
+    position: static;
+	}
+
+#idContent {
+	font-size: 1.3em;
+	margin: 20px 0px;
+	}
+
+.clearboth {
+	clear:both;
+	height:0px; line-height:0px;
+	}
+
+
+/* ------------- */
+/* TYPO          */
+/* ------------- */
+a:focus { outline: none; }
+a:link,a:visited,a:active,a:hover {
+	font-family: Verdana,Arial,Trebuchet MS;
+	text-decoration: none;
+	font-size: 1em;
+	color:#8dde41;
+	}
+p {
+	margin:0px; padding:0px;
+	cursor:default;
+	}
+	
+h1, h2 { color: #2e73f4;}
+
+/* --------------- */
+/* HEADER		   */
+/* --------------- */
+
+a.header {
+	display:block;
+	padding: 0px; margin:0px;
+	width:700px; height:176px;
+	background: #fff url('./images/header.jpg') no-repeat;
+	text-indent: -9999px;
+	}
