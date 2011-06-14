@@ -15,10 +15,16 @@
 	<page>
 		<heading>Vermessungsfragen</heading>
 		<question property="size" type="int" min="40" max="250">
-			<label>Körpergröße in cm:</label>
+			<label>Wie groß bist du?</label>
 		</question>
-		<question property="nof_teeth" type="int" min="0" max="40">
+		<question property="mass" type="int" min="1">
+			<label>Wie viel wiegst du?</label>
+		</question>
+		<question property="nof_teeth" type="int" min="0" max="32">
 			<label>Anzahl der Zähne:</label>
+		</question>
+		<question property="nof_toes" type="int" min="0" max="10">
+			<label>Anzahl der Zehen:</label>
 		</question>
 		<question property="longer_finger" type="select_single">
 			<label>Welcher Deiner Finger ist länger?</label>
@@ -26,12 +32,12 @@
 			<value>Ringfinger</value>
 			<value>Weiß nicht</value>
 		</question>
-		<question property="nof_clothes" type="int" min="0">
-			<label>Wieviele Kleidungsstücke hast Du momentan an?</label>
-		</question>
 	</page>
 	<page>
 		<heading>Fragen zum Alltag</heading>
+		<question property="nof_clothes" type="int" min="0">
+			<label>Wieviele Kleidungsstücke hast Du momentan an?</label>
+		</question>
 		<question property="vehicle" type="select_single">
 			<label>Was ist Dein meistgenutztes Fortbewegungsmittel innerhalb Dresdens?</label>
 			<value>Fahrrad</value>
@@ -54,11 +60,94 @@
 		</question>
 		<question property="einkauf_lidl" type="select_single">
 			<label>Gehst Du am Sonntag im LIDL (Bhf. Neustadt) einkaufen?</label>
-			<value>Ja</value>
-			<value>Nein</value>
+			<value>selten</value>
+			<value>oft</value>
+			<value>nie</value>
 		</question>
 		<question property="school_distance" type="int" min="0">
 			<label>Wie lang ist Dein Schulweg bzw. der Deines Kindes/Deiner Kinder (in Metern)?</label>
+		</question>
+	</page>
+	<page>
+		<heading>Fragen zum Neustadtleben</heading>
+		<question property="use_alaunplatz" type="select_single">
+			<label>Wie soll der Alaunplatz zukünftig genutzt werden?</label>
+			<value>Als Sportplatz</value>
+			<value>Als Polizeirevier Nord</value>
+			<value>Als Freibad</value>
+		</question>
+		<question property="favourite_place" type="select_single">
+			<label>Was ist dein Lieblingsort in der Neustadt?</label>
+			<value>Mag ich nicht angeben</value>
+			<altlabel>Geb ich an:</altlabel>
+		</question>
+		<question property="nof_beer" type="select_single">
+			<label>Wie viel Bier trinkst Du pro Tag/Promillezahl?</label>
+			<value>Wenige als 0,5</value>
+			<value>Zwischen 0,5 und 1</value>
+			<value>1 bis 2</value>
+			<value>mehr als 2</value>
+		</question>
+	</page>
+	<page>
+		<heading>Fragen zum Spätshop</heading>
+		<question property="spaetshop_distance" type="int">
+			<label>Wie viele Minuten Fußweg ist der nächste Spätshop entfernt?</label>
+		</question>
+		<question property="spaetshop_usage_daily" type="int" min="0">
+			<label>Wie oft gest du diesen Weg pro Tag?</label>
+		</question>
+		<question property="spaetshop_usage_weekly" type="int" min="0">
+			<label>Wie oft gest Du diesen Weg pro Woche?</label>
+		</question>
+	</page>
+	<page>
+		<heading>Weitere Fragen</heading>
+		<question property="nof_besuche" type="select_single">
+			<label>Wie oft besuchst du die Neustadt?</label>
+			<value>Ich wohne in der Neustadt</value>
+			<value>Einmal im Jahr (zur BRN)</value>
+			<value>mehrmals im Jahr</value>
+			<value>etwa einmal pro Monat</value>
+			<value>mehrmals im Monat</value>
+			<value>einmal pro Woche</value>
+			<value>mehrmals die Woche</value>
+			<value>jeden Tag</value>
+		</question>
+		<question property="nof_cups" type="int" min="0">
+			<label>Wieviele Tassen hast Du im Schrank?</label>
+		</question>
+		<question property="all_cups" type="select_single">
+			<label>Sind das alle?</label>
+			<value>Ja</value>
+			<value>Nein</value>
+			<value>Weiß nicht</value>
+		</question>
+		<question property="tatort" type="select_single">
+			<label>Bist Du Tatort-GuckerIn?</label>
+			<value>Ja</value>
+			<value>Nein</value>
+		</question>
+	</page>
+	<page>
+		<heading>Fragen zum Privatleben</heading>
+		<question property="nof_beziehungen" type="select_single">
+			<label>Wie viele Beziehungen hast Du bereits gehabt?</label>
+			<value>Noch nie</value>
+			<value>1-3</value>
+			<value>4-7</value>
+			<value>8-12</value>
+			<value>mehr als 12</value>
+		</question>
+		<question property="nof_umzuege" type="int" min="0">
+			<label>Wie oft bist Du schon umgezogen?</label>
+		</question>
+		<question property="want_sex" type="select_single">
+			<label>Hast Du vor, Dich am BRN-Sonntag um 12 Uhr zu vermehren?</label>
+			<value>nein</value>
+			<value>ja, einfach</value>
+			<value>ja, mehrmals</value>
+			<value>weiß nicht</value>
 		</question>
 	</page>
 </questions>
