@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
 	<title>BRN Volksvermessung</title>	
-	<link rel="stylesheet" href="./theme/core.css" type="text/css"></link>
+	<link rel="stylesheet" href="{$base_url}theme/core.css" type="text/css"></link>
 </head>
 <body>
 	<div class="wrapper">
