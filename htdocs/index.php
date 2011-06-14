@@ -3,10 +3,10 @@ if(!defined('DS'))
 	define('DS', DIRECTORY_SEPARATOR);
 if(!defined('PS'))
 	define('PS', PATH_SEPARATOR);
-if (!defined('TMVC_BASEDIR'))
-	define('TMVC_BASEDIR', dirname(__FILE__) . DS . '..'. DS . 'tinymvc' . DS);
-
 require('db_config.php');
+if (!defined('TMVC_BASEDIR'))
+	define('TMVC_BASEDIR', APP_TMVC_DIR);
+
 
 ini_set("include_path", APP_TMVC_DIR."/myapp/controllers/" . PS . '.' . PS . ini_get("include_path"));
 
