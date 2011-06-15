@@ -1,6 +1,6 @@
 <h1>Impressum</h1>
 
-<h2>Inhaltlich verantwortlicher</h2>
+<h2>Inhaltlich Verantwortlicher</h2>
 Gregor Sch&auml;fer<br/>
 Neubertstra&szlig;e 23<br>
 01307 Dresden
