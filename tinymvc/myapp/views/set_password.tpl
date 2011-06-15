@@ -17,5 +17,5 @@ sp&auml;ter Deine eingegebenen Daten auch &auml;ndern
 		<td>{$form_setpasswd_form_data.pw2.html}</td>
 	</tr>
 	</table>
-	<input type='submit' value='Volksvermessung beginnen'>
+	<input type='submit' value='&raquo; Volksvermessung beginnen'>
 </form>

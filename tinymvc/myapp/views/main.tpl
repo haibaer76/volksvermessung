@@ -17,10 +17,16 @@
 			{$content}
 		</div>
 		
+		<br/>
+		
+		<div class='footer'>
+			<center>
+			<a href="{$base_url}impressum">&raquo; Impressum</a>
+			</center>
+		</div>
+	
 	</div>
-	<div>
-		<a href="{$base_url}impressum">Impressum</a>
-	</div>
+	
 </body>
 </html>
 

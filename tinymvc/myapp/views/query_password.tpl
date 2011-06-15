@@ -5,6 +5,6 @@ Die Bogennummer ist bereits vorhanden. Bitte gib das zugeh&ouml;rige Passwort ei
 <form {$form_querypasswd_form_data.attributes}>
 	{$form_querypasswd_form_data.hidden}
 	{$form_querypasswd_form_data.passwd.html}
-	<input type="submit" value="Weiter">
+	<input type="submit" value="&raquo; Weiter">
 </form>
 
