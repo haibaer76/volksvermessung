@@ -18,6 +18,9 @@
 		</div>
 		
 	</div>
+	<div>
+		<a href="{$base_url}impressum">Impressum</a>
+	</div>
 </body>
 </html>
 
