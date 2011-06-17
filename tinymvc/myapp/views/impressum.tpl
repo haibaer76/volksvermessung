@@ -2,11 +2,15 @@
 
 <h2>Inhaltlich Verantwortlicher</h2>
 Gregor Sch&auml;fer<br/>
-Neubertstra&szlig;e 23<br>
-01307 Dresden
+Bautzener Stra&szlig;e 14<br>
+<br>
+01099 Dresden<br/>
+fidelkarsto[at]piraten[minus]dresden[punkt]de
+
 
 <h2>Technische Umsetzung</h2>
-Torsten Fehre
+Torsten Fehre<br/>
+post[at]feson[punkt]de
 
 <h2>Haftungsausschluss und andere Floskeln</h2>
 <p>
