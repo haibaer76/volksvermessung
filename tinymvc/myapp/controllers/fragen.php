@@ -57,6 +57,8 @@ class fragen_controller extends FW_Controller {
 				DBfunctions::getInstance()->doSingleCall(
 					"INSERT INTO t_person_properties(person_id, property, value) VALUES (?, ?, ?)", "iss", $_SESSION['person_id'], $prop, $val);
 			}
+			DBfunctions::getInstance()->doSingleCall(
+				"UPDATE t_persons SET submitted_at=NOW() WHERE id=?", "i", $_SESSION['person_id']);
 			$form->resetToken();
 			header("Location: ".APP_BASE_URL."ende");
 		} else {
