@@ -6,7 +6,7 @@ require_once('database/dbfunctions.php');
 class StartForm extends MyQuickForm {
 
 	public function __construct() {
-		MyQuickForm::MyQuickForm('form_begin', 'post', APP_BASE_URL, '', '', true);
+		MyQuickForm::MyQuickForm('form_begin', 'post', APP_BASE_URL.'begin', '', '', true);
 		$this->applyFilter('__ALL__', 'trim');
 		$this->addElement('text', 'bogen_id', '', array('class' => 'cls-input-bogen-id'));
 		$this->registerRule('cbBogenIdMustBeValid', 'callback', 'cbBogenIdMustBeValid', $this);
