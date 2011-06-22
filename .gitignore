@@ -1,4 +1,5 @@
 setup/db_config
 *.swp
 htdocs/db_config.php
+auswertung/outfile
 
